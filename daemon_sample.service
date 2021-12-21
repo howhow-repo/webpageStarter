@@ -11,7 +11,6 @@ Restart=on-failure
 StartLimitIntervalSec=10
 RestartSec=30s
 ExecStart=bash /usr/src/initWebWhenBoot/starter.sh 
-// ExecStartPost=bash /usr/src/initWebWhenBoot/rmmousercurser.sh
 
 [Install]
 WantedBy=multi-user.target
